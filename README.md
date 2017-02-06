@@ -1,0 +1,1 @@
+"Initiate irkom theme wp" 
