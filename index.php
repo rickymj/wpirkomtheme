@@ -28,10 +28,6 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="service.html">Service</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="components.html">Components</a></li>
-            <li><a href="about.html">About</a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
