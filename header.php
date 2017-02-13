@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Custome bootstrap theme with sass</title>
+    <title>IR Blogs</title>
 
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/app.css">
   </head>
