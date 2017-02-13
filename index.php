@@ -8,7 +8,7 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img class="first-slide img-responsive" src="<?php bloginfo('template_url'); ?> /img/first-slide.jpeg" alt="First slide">
+        <img class="first-slide img-responsive" src="<?php bloginfo('template_url'); ?>/img/first-slide.jpeg" alt="First slide">
         <div class="container">
           <div class="carousel-caption irkom-caption">
             <h1>Personal Website and Blog</h1>
@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="item">
-        <img class="second-slide img-responsive" src="<?php bloginfo('template_url'); ?> /img/second-slide.jpg" alt="Second slide">
+        <img class="second-slide img-responsive" src="<?php bloginfo('template_url'); ?>/img/second-slide.jpg" alt="Second slide">
         <div class="container">
           <div class="carousel-caption irkom-caption">
             <h1>Learning by Doing </h1>
