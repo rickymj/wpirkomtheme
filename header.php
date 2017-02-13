@@ -22,7 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <img src="<?php bloginfo('template_url'); ?> /img/ir.png">
+          <img src="<?php bloginfo('template_url'); ?>/img/ir.png">
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
