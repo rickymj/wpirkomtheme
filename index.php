@@ -48,14 +48,14 @@
           <p>Modern layout dan responsive karena dikembangkan oleh framework Bootstrap.</p>
         </div>
         <div class="col-md-4">
-          <i class="fa fa-info-circle"></i>
-          <h3>Information</h3>
-          <p>Mudah untuk dibaca dan mengandung informasi yang bermanfaat dan terkini.</p>
+          <span class="bootstrap-icons">K</span>
+          <h3>Transfer Knowledge</h3>
+          <p>Berbagi pengetahuan seputar pemrograman, teknologi, gadget, tips-tips dan kesehatan.</p>
         </div>
         <div class="col-md-4">
-          <i class="fa fa-text-width"></i>
-          <h3>Tutorial</h3>
-          <p>Penuh dengan tutorial dan tips tentang programming, gadget dan kesehatan.</p>
+          <span class="bootstrap-icons">D</span>
+          <h3>Open Discussion</h3>
+          <p>Menerima diskusi terbuka serta siap membantu untuk memecahkan kesulitan tentang pemrograman </p>
         </div>
       </div>
     </div>
