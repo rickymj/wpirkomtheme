@@ -10804,69 +10804,67 @@ button.close {
     padding: 20px 30px 30px 30px; }
 
 /* line 146, ../sass/_irkom.scss */
-.section-a {
+.section-motto {
   margin-top: 5px;
   padding: 50px 0;
   text-align: center;
   background: #28bfca;
   color: #ffffff; }
   /* line 152, ../sass/_irkom.scss */
-  .section-a .fa {
+  .section-motto .fa {
     font-size: 60px; }
 
 /* line 157, ../sass/_irkom.scss */
-.section-b {
-  background: #e6ebf1;
-  padding: 30px 0; }
-  /* line 161, ../sass/_irkom.scss */
-  .section-b img {
-    width: 100%; }
-
-/* line 167, ../sass/_irkom.scss */
-.section-c {
-  padding: 60px 0;
+.section-blog {
+  padding-top: 10px;
   text-align: center;
   background: #28bfca;
-  color: #ffffff; }
-  /* line 173, ../sass/_irkom.scss */
-  .section-c .btn-primary {
+  color: black; }
+  /* line 163, ../sass/_irkom.scss */
+  .section-blog .btn-primary {
     background: #20979f; }
+  /* line 167, ../sass/_irkom.scss */
+  .section-blog p {
+    text-align: justify; }
+  /* line 171, ../sass/_irkom.scss */
+  .section-blog .card-author {
+    text-align: left; }
 
-/* line 178, ../sass/_irkom.scss */
+/* line 176, ../sass/_irkom.scss */
 .panel-heading h4 {
   color: #ffffff; }
 
-/* line 182, ../sass/_irkom.scss */
+/* line 180, ../sass/_irkom.scss */
 .title-bar {
   background: url(../img/showcase.jpg) no-repeat 0 -300px;
   padding-bottom: 10px;
   border-bottom: 4px solid #28bfca; }
 
-/* line 188, ../sass/_irkom.scss */
+/* line 186, ../sass/_irkom.scss */
 .main {
   margin-top: 30px; }
 
-/* line 192, ../sass/_irkom.scss */
+/* line 190, ../sass/_irkom.scss */
 .bigheader {
   margin-top: 20px; }
 
-/* line 196, ../sass/_irkom.scss */
+/* line 194, ../sass/_irkom.scss */
 .jumbotron {
   margin-top: 20px;
   background: #a9e5e9;
   color: #0F0F0F; }
 
-/* line 202, ../sass/_irkom.scss */
+/* line 200, ../sass/_irkom.scss */
 .carousel {
   margin-bottom: 0; }
-  /* line 204, ../sass/_irkom.scss */
+  /* line 202, ../sass/_irkom.scss */
   .carousel a {
     color: #ffffff !important; }
-  /* line 207, ../sass/_irkom.scss */
+  /* line 205, ../sass/_irkom.scss */
   .carousel .fa {
     font-size: 18px; }
 
-/* line 214, ../sass/_irkom.scss */
+/* line 212, ../sass/_irkom.scss */
 .carousel-inner .item img {
   width: 100%;
   max-width: 100%;
@@ -10875,23 +10873,23 @@ button.close {
   background-size: cover;
   margin: 0 auto;
   transition: 0.3s ease-in-out left; }
-/* line 225, ../sass/_irkom.scss */
+/* line 223, ../sass/_irkom.scss */
 .carousel-inner .item .container .irkom-caption {
   padding-bottom: 150px; }
-  /* line 226, ../sass/_irkom.scss */
+  /* line 224, ../sass/_irkom.scss */
   .carousel-inner .item .container .irkom-caption p {
     font-size: 25px; }
 
-/* line 233, ../sass/_irkom.scss */
+/* line 231, ../sass/_irkom.scss */
 .thumbnail {
   padding: 5; }
 
-/* line 237, ../sass/_irkom.scss */
+/* line 235, ../sass/_irkom.scss */
 .thumbnail .caption-full {
   padding: 9px;
   color: #333; }
 
-/* line 242, ../sass/_irkom.scss */
+/* line 240, ../sass/_irkom.scss */
 .card-author {
   border-top: 1px solid #ccc;
   padding-top: 5px;
@@ -10899,7 +10897,7 @@ button.close {
   margin-top: 10px;
   margin-right: 20px; }
 
-/* line 250, ../sass/_irkom.scss */
+/* line 248, ../sass/_irkom.scss */
 .card-author-circle {
   max-width: 100%;
   width: 10%;
@@ -10918,6 +10916,10 @@ button.close {
   bottom: 0; }
 
 /* line 279, ../sass/_irkom.scss */
+.panel img {
+  margin-top: 5px; }
+
+/* line 285, ../sass/_irkom.scss */
 footer {
   margin-top: 5px;
   padding: 15px 0;

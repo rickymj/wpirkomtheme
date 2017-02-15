@@ -39,7 +39,7 @@
   <!-- end carousel page -->
 
   <!-- section a -->
-  <div class="section-a">
+  <div class="section-motto">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -61,5 +61,45 @@
     </div>
   </div>
   <!-- end section b-->
+
+  <div class="page-header text-center">
+    <h2>Blogs</h2>
+  </div>
+
+  <div class="section-blog">
+    <div class="container">
+      <?php if(have_posts()) : ?>
+      <div class="row">
+        <?php while(have_posts()) : the_post(); ?>
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="panel panel-primary">
+                  <!-- Default panel contents -->
+              <div class="panel-heading"><?php the_title(); ?></div>
+              <?php if(has_post_thumbnail()) : ?>
+                <div class="irkom-post-thumbnails">
+                  <?php the_post_thumbnail(); ?>
+                </div>
+                <?php else : ?>
+                  <img data-src="holder.js/350x263/auto/#771:#100" alt="First slide">
+              <?php  endif; ?>
+
+              <div class="panel-body">
+                <p><?php the_excerpt(); ?></p>
+                <a class="btn btn-info" href="<?php the_permalink(); ?>" role="button">Read more »</a>
+              </div>
+              <div class="panel-footer text-left">
+               <img style="background-image:url(http://placekitten.com/g/400/200)" class="card-author-circle">
+                  <?php the_author(); ?> | <?php the_time('F j, Y g:i a'); ?>
+             </div>
+            </div>
+          </div>
+
+        <?php endwhile; ?>
+      </div>
+      <?php else: ?>
+      <p><?php __('No Posts found'); ?></p>
+    <?php endif; ?>
+    </div>
+  </div>
 
 <?php get_footer(); ?>

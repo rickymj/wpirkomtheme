@@ -8,6 +8,7 @@
     <title>IR Blogs</title>
 
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/app.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
   </head>
 
   <body>
@@ -22,12 +23,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <img src="<?php bloginfo('template_url'); ?>/img/ir.png">
+          <img src="<?php bloginfo('template_url'); ?>/img/ir.png" id="brand">
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <?php
+              wp_nav_menu( array(
+               'menu'              => 'primary',
+               'theme_location'    => 'primary',
+               'depth'             => 2,
+               'container'         => 'div',
+               'container_class'   => 'collapse navbar-collapse',
+               'container_id'      => 'bs-example-navbar-collapse-1',
+               'menu_class'        => 'nav navbar-nav',
+               'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+               'walker'            => new wp_bootstrap_navwalker())
+              );
+             ?>
           </ul>
 
         </div><!--/.nav-collapse -->
