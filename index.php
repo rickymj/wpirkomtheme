@@ -1,65 +1,41 @@
+<?php /* Template Name: Blog template */ ?>
 <?php get_header(); ?>
-  <!-- carousel page -->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img class="first-slide img-responsive" src="<?php bloginfo('template_url'); ?>/img/first-slide.jpeg" alt="First slide">
-        <div class="container">
-          <div class="carousel-caption irkom-caption">
-            <h1>Personal Website and Blog</h1>
-            <hr>
-            <p>Simple personal webiste to share and remember experienced</p>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <img class="second-slide img-responsive" src="<?php bloginfo('template_url'); ?>/img/second-slide.jpg" alt="Second slide">
-        <div class="container">
-          <div class="carousel-caption irkom-caption">
-            <h1>Learning by Practicing </h1>
-            <hr>
-            <p>Simple blog to improve your skills. easy to practiced and source code provided</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-          </div>
-        </div>
-      </div>
+<!--end menu header -->
+<div class="container text-center">
+    <div class="jumbotron blog-header">
+        <h1>Berbagi Cerita</h1>
+        <p class="lead">Kami berbagi cerita seputar pengalaman coding, teknologi, kesehatan, tips and trik.</p>
+        <p class="lead">Silahkan tekan tombol dibawah ini untuk melihat daftar cerita</p>
+        <p><a class="btn btn-lg btn-success" href="#stories" role="button">Blog</a>
+        </p>
     </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="icon-prev"></span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="icon-next"></span>
-    </a>
-  </div>
-  <!-- end carousel page -->
+</div>
 
-  <!-- section a -->
-  <div class="section-motto">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <span class="bootstrap-icons">B</span>
-          <h3>Modern Blog</h3>
-          <p>Modern layout dan responsive karena dikembangkan oleh framework Bootstrap.</p>
+<div id="stories" class="section-blog">
+    <div class="container bs-doc-container">
+        <div class="row">
+
+            <div class="col-md-9" role="main">
+                <?php if(have_posts()) : ?>
+                <?php while(have_posts()) : the_post(); ?>
+
+                <div class="col-md-12">
+                    <?php get_template_part( 'content', get_post_format()); ?>
+                </div>
+                <?php endwhile; ?>
+
+                <?php else : ?>
+                <p>
+                    <?php __( 'No Posts Found'); ?>
+                </p>
+                <?php endif; ?>
+            </div>
+
+            <div class="col-md-3" role="complementary">
+
+            </div>
         </div>
-        <div class="col-md-4">
-          <span class="bootstrap-icons">K</span>
-          <h3>Transfer Knowledge</h3>
-          <p>Berbagi pengetahuan seputar pemrograman, teknologi, gadget, tips-tips dan kesehatan.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="bootstrap-icons">D</span>
-          <h3>Open Discussion</h3>
-          <p>Menerima diskusi terbuka serta siap membantu untuk memecahkan kesulitan tentang pemrograman </p>
-        </div>
-      </div>
     </div>
-  </div>
-  <!-- end section b-->
+</div>
 
 <?php get_footer(); ?>

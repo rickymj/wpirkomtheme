@@ -16,7 +16,7 @@ add_action('after_setup_theme','wpb_theme_setup');
 
 //excerpt length control
 function set_excerpt_length(){
-  return 40;
+  return 20;
 }
 
 add_filter('excerpt_length', 'set_excerpt_length');
