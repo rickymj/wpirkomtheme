@@ -1,6 +1,6 @@
     <footer>
       <div class="container">
-        <p>Copyright &copy; 2017 IR</p>
+        <p>Copyright &copy; IR Personal website powered by Wordpress and Bootstrap</p>
       </div>
     </footer>
 
