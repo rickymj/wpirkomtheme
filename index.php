@@ -32,8 +32,32 @@
             </div>
 
             <div class="col-md-3" role="complementary">
-
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                Category
+              </div>
+              <div class="panel-body text-left">
+                <ul class="list-group">
+                  <li class="list-group-item">Bootstrap</li>
+                  <li class="list-group-item">Bootstrap</li>
+                  <li class="list-group-item">Bootstrap</li>
+                </ul>
+              </div>
             </div>
+
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                Archieve
+              </div>
+              <div class="panel-body text-left">
+                <ul class="list-group">
+                  <li class="list-group-item">Bootstrap</li>
+                  <li class="list-group-item">Bootstrap</li>
+                  <li class="list-group-item">Bootstrap</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 </div>
