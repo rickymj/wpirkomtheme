@@ -32,31 +32,29 @@
             </div>
 
             <div class="col-md-3" role="complementary">
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                Category
-              </div>
-              <div class="panel-body text-left">
-                <ul class="list-group">
-                  <li class="list-group-item">Bootstrap</li>
-                  <li class="list-group-item">Bootstrap</li>
-                  <li class="list-group-item">Bootstrap</li>
-                </ul>
-              </div>
-            </div>
 
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                Archieve
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <?php _e('Kategori', 'wpb_theme_setup'); ?>
+                </div>
+                <div class="panel-body text-left">
+                  <ul class="list-group">
+                    <?php wp_list_categories('sort_column=name&title_li='); ?>
+
+                  </ul>
+                </div>
               </div>
-              <div class="panel-body text-left">
-                <ul class="list-group">
-                  <li class="list-group-item">Bootstrap</li>
-                  <li class="list-group-item">Bootstrap</li>
-                  <li class="list-group-item">Bootstrap</li>
-                </ul>
+
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <?php _e('Post terbaru', 'wpb_theme_setup'); ?>
+                </div>
+                <div class="panel-body text-left">
+                  <ul class="list-group">
+                    <?php wp_get_archives('format=custom&before= <li class="list-group-item">&after=</li>&type=postbypost&limit=100');?>
+                  </ul>
+                </div>
               </div>
-            </div>
           </div>
         </div>
     </div>
