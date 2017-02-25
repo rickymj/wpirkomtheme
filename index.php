@@ -23,6 +23,9 @@
                     <?php get_template_part( 'content', get_post_format()); ?>
                 </div>
                 <?php endwhile; ?>
+                <nav aria-label="Page navigation">
+                  <?php wpbeginner_numeric_posts_nav(); ?>
+                </nav>
 
                 <?php else : ?>
                 <p>
