@@ -1,7 +1,7 @@
 <?php /* Template Name: Blog template */ ?>
 <?php get_header(); ?>
 <!--end menu header -->
-<div class="container text-center">
+<div class="text-center">
     <div class="jumbotron blog-header">
         <h1>Berbagi Cerita</h1>
         <p class="lead">Kami berbagi cerita seputar pengalaman coding, teknologi, kesehatan, tips and trik.</p>
@@ -18,10 +18,7 @@
             <div class="col-md-9" role="main">
                 <?php if(have_posts()) : ?>
                 <?php while(have_posts()) : the_post(); ?>
-
-                <div class="col-md-12">
                     <?php get_template_part( 'content', get_post_format()); ?>
-                </div>
                 <?php endwhile; ?>
                 <nav aria-label="Page navigation">
                   <?php wpbeginner_numeric_posts_nav(); ?>
@@ -43,7 +40,6 @@
                 <div class="panel-body text-left">
                   <ul class="list-group">
                     <?php wp_list_categories('sort_column=name&title_li='); ?>
-
                   </ul>
                 </div>
               </div>
