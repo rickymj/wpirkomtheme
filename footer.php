@@ -1,4 +1,4 @@
-    <footer>
+    <footer class="footer">
       <div class="container">
         <p>Copyright &copy; IR Personal website powered by Wordpress and Bootstrap</p>
       </div>
