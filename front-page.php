@@ -12,7 +12,7 @@
         <img class="first-slide img-responsive" src="<?php bloginfo('template_url'); ?>/img/first-slide.jpeg" alt="First slide">
         <div class="container">
           <div class="carousel-caption irkom-caption">
-            <h1>Personal Website and Blog style="color:#2F4F4F</h1>
+            <h1>Personal Website and Blog</h1>
             <hr>
             <p>Simple personal webiste to share and remember experienced</p>
           </div>
