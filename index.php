@@ -3,9 +3,9 @@
 <!--end menu header -->
 <div class="text-center">
     <div class="jumbotron blog-header">
-        <h1>Berbagi Cerita</h1>
-        <p class="lead">Kami berbagi cerita seputar pengalaman coding, teknologi, kesehatan, tips and trik.</p>
-        <p class="lead">Silahkan tekan tombol dibawah ini untuk melihat daftar cerita</p>
+        <h1>IRKOM</h1>
+        <p class="lead">Sharing experience to connect, to remember, to improve, and to make a new friend</p>
+        <p class="lead">Please click Blog button to know my experienced</p>
         <p><a class="btn btn-lg btn-success" href="#stories" role="button">Blog</a>
         </p>
     </div>

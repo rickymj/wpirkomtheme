@@ -13,6 +13,8 @@
         <a class="" href="<?php the_permalink(); ?>" role="">lengkapnya »</a>
     </div>
     <div class="panel-footer text-left ">
-        <img style="background-image:url(http://placekitten.com/g/400/200)" class="stories-author-circle"> Writer
+        <i class="fa fa-user" aria-hidden="true"></i>&nbsp; <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
+       <?php the_author(); ?>
+     </a>
     </div>
 </div>
