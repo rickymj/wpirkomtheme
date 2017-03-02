@@ -6,6 +6,8 @@ require_once('wp_bootstrap_navwalker.php');
 function wpb_theme_setup() {
 
     add_theme_support('post-thumbnails');
+    set_post_thumbnail_size( 700, 385);
+    
     //nav menu
     register_nav_menus(array(
         'primary' => __('Primary Menu')
@@ -113,7 +115,7 @@ function wpbeginner_numeric_posts_nav() {
 }
 
 // Customize Comment Output
-function twbs_comment_format($comment, $args, $depth) {
+function irkom_comment_format($comment, $args, $depth) {
     $GLOBALS['comment'] = $comment;
     ?>
 
@@ -139,20 +141,20 @@ function twbs_comment_format($comment, $args, $depth) {
     <?php
 }
 
-function twbs_avatar_class($class) {
+function irkom_avatar_class($class) {
     $class = str_replace("class='avatar", "class='avatar img-circle media-object", $class);
     return $class;
 }
 
-add_filter('get_avatar', 'twbs_avatar_class');
+add_filter('get_avatar', 'irkom_avatar_class');
 
 // Add Class to Comment Reply Link
-function twbs_reply_link_class($class) {
+function irkom_reply_link_class($class) {
     $class = str_replace("class='comment-reply-link", "class='btn btn-primary btn-sm", $class);
     return $class;
 }
 
-add_filter('comment_reply_link', 'twbs_reply_link_class');
+add_filter('comment_reply_link', 'irkom_reply_link_class');
 
 // twbs_comment_format  
 ?>

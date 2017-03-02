@@ -1,6 +1,6 @@
  <hr>
 <?php if (have_comments()) : ?>
-    <?php wp_list_comments('callback=twbs_comment_format'); ?>
+    <?php wp_list_comments('callback=irkom_comment_format'); ?>
 <?php endif; ?>
  <hr>
 <div id="respond">

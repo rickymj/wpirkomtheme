@@ -7,7 +7,7 @@
         <?php the_post_thumbnail(); ?>
       </div>
       <?php else: ?>
-        <img data-src="holder.js/800x360/auto/#771:#100" alt="First slide">
+        <img data-src="holder.js/800x360/auto/#771:#100" alt="First slide" >
     <?php endif; ?>
     <div class="panel-body text-left">
         <a class="" href="<?php the_permalink(); ?>" role="">lengkapnya »</a>

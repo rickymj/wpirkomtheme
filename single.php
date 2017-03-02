@@ -12,8 +12,8 @@
                 <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
                         <?php if (has_post_thumbnail()) : ?>
-                            <div class="">
-                                <?php the_post_thumbnail(); ?>
+                            <div class="irkom-post-thumbnails">
+                                <?php the_post_thumbnail('post-thumbnail', ['class' => 'img-thumbnail img-responsive center-block', 'title' => 'Feature image']); ?>
                             </div>
                         <?php endif; ?>
                         <?php the_content(); ?>

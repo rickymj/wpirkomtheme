@@ -21,6 +21,6 @@ html, body {
 }
 
 .irkom-post-thumbnails img{
-  width: 800px;
+  width: 100%;
   height: 360px;
 }
