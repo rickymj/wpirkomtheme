@@ -14,7 +14,7 @@
           <div class="carousel-caption irkom-caption">
             <h1>Personal Website and Blog</h1>
             <hr>
-            <p>Simple personal webiste to share and remember experienced</p>
+            <p>simple personal website to share, to remember, to connect, and easy to read</p>
           </div>
         </div>
       </div>
@@ -24,8 +24,8 @@
           <div class="carousel-caption irkom-caption">
             <h1>Learning by Practicing </h1>
             <hr>
-            <p>Simple blog to improve your skills. easy to practiced and source code provided</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <p>Practicing is the best way to learn and understand for improving the programming skill</p>
+            <p><a class="btn btn-lg btn-primary" href="/blog" role="button">Learn more</a></p>
           </div>
         </div>
       </div>
@@ -45,18 +45,18 @@
       <div class="row">
         <div class="col-md-4">
           <span class="bootstrap-icons">B</span>
-          <h3>Modern Blog</h3>
-          <p>Modern layout dan responsive karena dikembangkan oleh framework Bootstrap.</p>
+          <h3>Simple Blog</h3>
+          <p>Simple and responsive blog powered by combined between bootstrap and wordpress.</p>
         </div>
         <div class="col-md-4">
           <span class="bootstrap-icons">K</span>
           <h3>Transfer Knowledge</h3>
-          <p>Berbagi pengetahuan seputar pemrograman, teknologi, gadget, tips-tips dan kesehatan.</p>
+          <p>Blog for transfer knowledge can improve your skilling also connect to new people and make a new friend.</p>
         </div>
         <div class="col-md-4">
           <span class="bootstrap-icons">D</span>
           <h3>Open Discussion</h3>
-          <p>Menerima diskusi terbuka serta siap membantu untuk memecahkan kesulitan tentang pemrograman </p>
+          <p>Experience programmer and friendly like to open discussion to solve your problems and issues.</p>
         </div>
       </div>
     </div>
